@@ -105,7 +105,7 @@ Different classification algorithms are differently vulnerable for bias.
 [∆top](#0)
 
 # WEEK 3: Kickoff presentation <a name="3"></a>
-This week, we presented our project to our professor and his colleagues ([Here you find the presentation slides](../blob/master/docs/KickoffBIASpect.pdf)), who are supervising the project. We got a lot of feedback and could select some points for rethinking regarding the conception of the data base and the experimental structure:
+This week, we presented our project to our professor and his colleagues ([here you can find our presentation slides](../docs/KickoffBIASpect.pdf)), who are supervising the project. We got a lot of feedback and could select some points for rethinking regarding the conception of the data base and the experimental structure:
 
 ## How to sample the instances properties? We will need more dispersion!
 So far, as described above, our plan was to have only binary variables in the learning data set. For the label and the gender this seems reasonable. For the variable which shall have a dependency with the label "CEO" or "NOT CEO" this could be realistic, too. Imagine you do a suitability test and pass it or not. Imagine that if you pass this test, it is probable that you could be a CEO. So the information if you passed the test or not (a binary variable) would be informative. But for the issue of our study for most of the classifiers this could be to easy to hard-learn this rule. So our mission: Find a way to sample a variable structure that correltes as well with the gender as with the label. One fix idea: Variables sampled from normal distributions.
