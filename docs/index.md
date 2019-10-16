@@ -105,16 +105,29 @@ Different classification algorithms are differently vulnerable for bias.
 [∆top](#0)
 
 # WEEK 3: Kickoff presentation <a name="3"></a>
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+This week, we presented our project to our professor and his colleagues, who are supervising the project. We got a lot of feedback and could select some points for rethinking regarding the conception of the data base and the experimental structure:
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+## How to sample the instances properties? We will need more dispersion!
+So far, as described above, our plan was to have only binary variables in the learning data set. For the label and the gender this seems reasonable. For the variable which shall have a dependency with the label "CEO" or "NOT CEO" this could be realistic, too. Imagine you do a suitability test and pass it or not. Imagine that if you pass this test, it is probable that you could be a CEO. So the information if you passed the test or not (a binary variable) would be informative. But for the issue of our study for most of the classifiers this could be to easy to hard-learn this rule. So our mission: Find a way to sample a variable structure that correltes as well with the gender as with the label. One fix idea: Variables sampled from normal distributions.
+
+## What kind of classifiers do we want to test? Don't be too sparingly!
+So far, we were not sure, which classifiers we would test exactly. We collected a list of various and commonly used ones. As we discussed expected running times during the presentation we came along that there is no reason to not test the bias-effects on all classifiers that seem reasonable. No need to leave one out! Suggestions for additional classifiers are welcome.
+
+## Which factors do we want to vary? More variations, more information. But keep it simple.
+So far, as described above, the plan was to 1) vary the overrepresentation of men in the data set, 2) vary the distribution of the label for men and 3) vary the shift between the labeldistributions for men and women. The idea came up, if 2) is a necessary variation for our issue. Quickly this idea was discarded. Variations that could have an effect on the bias certainly should be varied in our experiment to monitor their influence.
+
+Next to come: We will now start to rethink our data sampling and give it a look. In Mid-October we will have a meeting with our professor (who is inter alia an expert for neural networks and in general AI) and a professor from the simulations department. We are looking forward to finish our work on sampling with them.
 
 [∆top](#0)
 
 # WEEK 4: The new data set <a name="4"></a>
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+This week we worked on the creation of our dataset. Let's have a look:
+![Origin of the Data & Data Base Sampling](images/OriginData&DataBase.png)
+
+And now let's take a look at our variational factors again:
+![Factor 1: Overrepresentation of Men](images/"FACTOR1_OVERREPRESENTATION OF MEN (1).png")
+![Factor 2 & 3: Suitability of Men and Gender Difference](images/FACTOR 2 & 3 - SUITABILITY OF MEN AND GENDER DIFFERENCE.png)
 
 [∆top](#0)
 
