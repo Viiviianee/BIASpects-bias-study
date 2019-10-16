@@ -126,8 +126,8 @@ This week we worked on the creation of our dataset. Let's have a look:
 ![Origin of the Data & Data Base Sampling](images/OriginData&DataBase.png)
 
 And now let's take a look at our variational factors again:
-![Factor 1: Overrepresentation of Men](images/"FACTOR1_OVERREPRESENTATION OF MEN (1).png")
-![Factor 2 & 3: Suitability of Men and Gender Difference](images/FACTOR 2 & 3 - SUITABILITY OF MEN AND GENDER DIFFERENCE.png)
+![Factor 1: Overrepresentation of Men](images/factor1_overrepresentationofmen.png)
+![Factor 2 & 3: Suitability of Men and Gender Difference](images/factor2_3_suitabilitymen_shift.png)
 
 [∆top](#0)
 
