@@ -1,0 +1,11 @@
+Folientitel: Projektidee
+
+Inhalt:
+
+- Projektseminar: "Responsible Data Science"
+- Thema: Algorithmen mit Benachteiligung von Gruppen ("Bias") und wie man diesen erkennen kann
+- Aber woher kommt dieser Bias? 
+- Was beeinflusst, ob ein Lernalgorithmus "diskriminierend" ist?
+- Wie reproduzieren sich Ungleichheiten in der Gesellschaft über Daten in Lernalgorithmen, die wir für Entscheidungen einsetzen?
+
+-> Experimentelle Studie zur Erforschung dieses "Bias"
