@@ -1,0 +1,52 @@
+Folie 1
+Titel: Zusammenfassung Ergebnisse
+
+Inhalt:
+
+Ursachen Bias
+
+- Gibt es Unterschiede im Anteil geeigneter Personen zwischen zwei Gruppen, dann ist der Classifier für eine der beiden akkurater (Bias)
+
+- Ist eine Gruppe sehr stark überrepräsentiert, kann sich dieser Bias verstärken
+
+- Unscharfe Messmethoden der Eignung führen dazu, dass es einen unvermeidbaren Bias zwischen zwei Gruppen mit unterschiedlichem Informationsgehalt gibt
+
+
+
+Vermeidung Bias
+
+- Informationen über die Gruppe aus dem Lerndatensatz zu entfernen reicht nicht aus um diesen Bias zu verhindern
+
+- Die Verteilungen im Lerndatensatz anzugleichen vermindert den Bias
+
+Folie 2
+Titel: Ausblick
+
+Inhalt:
+
+- Sehr vereinfachte Daten
+	-> Andere Datenstrukturen sollten untersucht werden
+	-> auch Versuch mit echten Daten
+
+- Hier Accuracydifferenz als Bias, ABER: Im Kontext sollte immer bedacht werden, ob es eine Art von Fehlentscheidungen gibt, die "schlimmer" ist
+
+	-> Eventuell Fokus in Forschung auf nur eine Art von Fehlentscheidungen (z.B. Nicht-Erkennen von geeigneten Personen)
+
+- Eintstellungen der Classifier könnten noch optimiert werden
+	-> mögliche weitere Methode zur Biasreduktion
+
+Folie 3
+Titel: Was lernen wir daraus?
+
+- Ergebnisse nicht nur für Männer und Frauen (auch andere Ungleichheiten durch z.B. Nationalität oder soziale Schicht)
+
+- Bias für verschiedene Gruppierungen immer messen!
+
+	-> Welche das sind, ist eine wichige gesellschaftliche Frage (einige stehen schon: Geschlecht, Nationalität, Religion)
+
+- Bias entdeckt - Und nun?
+	-> Es genügt nicht nur die Informationen über die Gruppenzugehörigkeit zu verwehren!
+
+	-> 50-50-50 Lerndaten
+
+	-> Messinstrumente überdenken (Quantität und Qualität)
